@@ -1,5 +1,3 @@
-
-
 from twilio.rest import Client
 from scraper import scraper
 import schedule
@@ -33,8 +31,3 @@ def send_message():
                                       to= Numbers[number]
                                   ) 
 send_message()
-schedule.every(168).hours.do(send_message)
- 
-while True:
-    schedule.run_pending()
-
