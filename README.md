@@ -1,6 +1,12 @@
 # Summary #
 
-Personal project that pulls from an automatically updating google sheet and sends texts to my roomates with chores for the week.
+Proof of concept application that pulls from an automatically updating google sheet and sends a text to each of my roomates every week with their chores for the week.
 
-## Run instructions ##
-You cannot run this one without inputting your own credentials. But you could create a sheet mirroring the one linked in the scraper file, and replace the dictionary of phone numbers with your friends numbers and create your own!
+[Google Sheet that autoupdates](https://docs.google.com/spreadsheets/d/1GH7gVxLvOTsPCRUDu72pJaJuAgR9PDef__m9waPXWuo/edit#gid=896179141) in case you want to recreate.
+
+Will be building out into a full web app that others can use.
+
+## Stack
+- Twilio
+- Cron
+- Google Sheets API
