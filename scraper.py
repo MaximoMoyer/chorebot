@@ -1,10 +1,4 @@
-# Importing required library
 import pygsheets
-
-
-# Create the Client
-# Enter the name of the downloaded KEYS
-# file in service_account_file
 
 class scraper(): 
 	def __init__(self,sheet,tab):
