@@ -4,9 +4,9 @@ from twilio.rest import Client
 from scraper import scraper
 import schedule
 
- 
-account_sid = 'AC45a59ca9849a848062cfd119f5c389f4' 
-auth_token = 'fe2e565e121c98dadd9b32134e915065' 
+#fill in with personal tokens 
+account_sid = 'AC45a59ca9849a848062cfd119f5c389f4'
+auth_token = '' 
 client = Client(account_sid, auth_token) 
  
 myScraper = scraper('Apartments','Chores')
